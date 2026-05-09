@@ -1,4 +1,4 @@
-{% set version = "0.5.1" %}
+{% set version = "0.5.9" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ryodohemmi/mkgraticule_planet/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: d0f311468bf7cd373ff815266322c243a5320bf203b2b5d472c44bc766ae7e06
+  sha256: 701d6c700a8fb9e6637a4ccb9a27ee07def403af9a558e40be8096937ba35173
 
 build:
   noarch: python
