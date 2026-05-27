@@ -7,7 +7,7 @@ Home: https://github.com/ryodohemmi/mkgraticule_planet
 
 Package license: Apache-2.0
 
-Summary: Create planetary graticules for IAU coordinate systems and export as GeoPackage
+Summary: Create planetary-scale graticules with multi-format labels for any GDAL/PROJ-supported CRS — exported as GeoPackage or SpatiaLite
 
 Current build status
 ====================
@@ -16,7 +16,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/mkgraticule-planet-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/mkgraticule-planet-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
