@@ -1,5 +1,4 @@
-{% set version = "1.2.0" %}
-{% set python_min = "3.9" %}
+{% set version = "1.2.1" %}
 
 package:
   name: mkgraticule-planet
@@ -7,7 +6,7 @@ package:
 
 source:
   url: https://github.com/ryodohemmi/mkgraticule_planet/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: f28d0851285787f2404e3d5431ce20acc2a4bbbe7f9fa8781af4074c8491a404
+  sha256: 3aef54d254b7f389c1e5298d38321228f1701236356db6fdc8bcee895f228671
 
 build:
   noarch: python
